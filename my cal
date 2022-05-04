@@ -1,0 +1,19 @@
+import setuptools
+
+setuptools.setup(
+include_package_data = True,
+name='mycal0001',
+version='0.0.1'
+description='oss-dev my calculator 0001',
+author='jooonyoung',
+author_email='bjy5782@naer.com',
+url = "",
+download_url = "",
+install_requires=['pytest'],
+long_description = 'oss-dev calculator python module',
+long_description_content_type = 'text/markdown',
+classifiers=[
+"programing Language :: Python :: 3",
+"Operating System :: 05 Independent",
+],
+)
